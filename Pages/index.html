@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Properties</title>
+</head>
+
+<body>
+
+    <h1 style="text-align: center;">Our Properties</h1>
+    <div style="display: flex;
+    flex-wrap: wrap; justify-content: center; background-color: #fafafa;" id="imageContainer">
+    </div>
+
+</body>
+
+<script type="text/javascript">
+
+    let imageContainer = document.getElementById("imageContainer");
+    for (let i = 0; i < 10; i++) {
+        imageContainer.innerHTML += ('<img src="../Assets/Images/home.jpg" style="max-width: 25%; margin: 10px;" alt="home"></img>')
+    }
+
+</script>
+
+</html>
