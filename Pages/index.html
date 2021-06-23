@@ -2,6 +2,8 @@
 <html>
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
 
 <head>
     <title>Properties</title>
@@ -10,75 +12,38 @@
 <body style="margin: 0px;">
 
     <div
-        style="height: 100px; width: 100%; position: sticky; top: 0px; background-color: #fafafa; display: flex; justify-content: center; align-items: center; z-index: 2;">
-        <div style="width: 50%;">
-            <h4 style="text-align: center;">Properties</h4>
+        class="header-container">
+        <div class="header-element-container">
+            <h4 class="header-element">Properties</h4>
         </div>
-        <div style="width: 50%;">
-            <h4 style="text-align: center;">Team</h4>
+        <div class="header-element-container">
+            <h4 class="header-element">Team</h4>
         </div>
     </div>
-    <h1 style="text-align: center; margin: 15px;">Our Properties</h1>
-    <div style="display: flex;
-    flex-wrap: wrap; justify-content: center; background-color: #fafafa;" id="imageContainer">
+    <h1 class="title">Our Properties</h1>
+    <div class="grid" id="imageContainer">
     </div>
 
-    <h1 style="text-align: center;">Newest Properties</h1>
+    <h1 class="title">Newest Properties</h1>
     <!-- Slider main container -->
-    <div class="swiper-container" style="width: 50%; background-color: #fafafa; z-index: 1;">
+    <div class="swiper-container">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper" id="swiperContainer">
             <!-- Slides -->
         </div>
 
         <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev swiper-button"></div>
+        <div class="swiper-button-next swiper-button"></div>
 
     </div>
     <!-- footer -->
-    <div style="height: 300px; background-color: #636363; margin-top: 10px;">
+    <div class="footer">
     </div>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <script type="text/javascript">
-
-        let imageContainer = document.getElementById("imageContainer");
-        for (let i = 0; i < 10; i++) {
-            imageContainer.innerHTML += ('<img src="../Assets/Images/home.jpg" style="max-width: 25%; margin: 10px;" alt="home"></img>')
-        }
-
-        let swiperContainer = document.getElementById("swiperContainer");
-        for (let i = 0; i < 10; i++) {
-            swiperContainer.innerHTML += ('<img class="swiper-slide" src="../Assets/Images/home.jpg" alt="home"></img>')
-        }
-
-        const swiper = new Swiper('.swiper-container', {
-            // Optional parameters
-            direction: 'horizontal',
-            loop: true,
-
-            // If we need pagination
-            pagination: {
-                el: '.swiper-pagination',
-            },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-            // And if we need scrollbar
-            scrollbar: {
-                el: '.swiper-scrollbar',
-            },
-        });
-
-    </script>
-
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 

@@ -1,0 +1,47 @@
+.header-container {
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.header-element-container {
+    width: 50%;
+}
+
+.header-element {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    margin: 15px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fafafa;
+}
+
+.swiper-container {
+    width: 50%;
+    background-color: #fafafa;
+    z-index: 1;
+}
+
+.swiper-button {
+    color: white;
+}
+
+.footer {
+    height: 300px;
+    background-color: #636363;
+    margin-top: 10px;
+}
