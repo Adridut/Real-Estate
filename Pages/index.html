@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
 <head>
     <title>Properties</title>
@@ -12,15 +14,58 @@
     flex-wrap: wrap; justify-content: center; background-color: #fafafa;" id="imageContainer">
     </div>
 
+    <!-- Slider main container -->
+    <div class="swiper-container" style="width: 50%; padding: 100px;">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper" style="margin: 5px">
+            <!-- Slides -->
+            <img class="swiper-slide" src="../Assets/Images/home.jpg" style="margin: 10px;" alt="home"></img>
+            <img class="swiper-slide" src="../Assets/Images/home.jpg" style="margin: 10px;" alt="home"></img>
+            <img class="swiper-slide" src="../Assets/Images/home.jpg" style="margin: 10px;" alt="home"></img>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script type="text/javascript">
+
+        let imageContainer = document.getElementById("imageContainer");
+        for (let i = 0; i < 10; i++) {
+            imageContainer.innerHTML += ('<img src="../Assets/Images/home.jpg" style="max-width: 25%; margin: 10px;" alt="home"></img>')
+        }
+
+        const swiper = new Swiper('.swiper-container', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+
+    </script>
+
 </body>
 
-<script type="text/javascript">
 
-    let imageContainer = document.getElementById("imageContainer");
-    for (let i = 0; i < 10; i++) {
-        imageContainer.innerHTML += ('<img src="../Assets/Images/home.jpg" style="max-width: 25%; margin: 10px;" alt="home"></img>')
-    }
-
-</script>
 
 </html>
