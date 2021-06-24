@@ -1,3 +1,27 @@
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #f5427b;
+}
 
 .header-container {
     width: 100%;
@@ -28,7 +52,6 @@
 .header-link:hover {
     color: #f5427b;
 }
-
 
 .title {
     text-align: center;
