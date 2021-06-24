@@ -1,12 +1,13 @@
+
 .header-container {
     width: 100%;
     position: sticky;
     top: 0px;
-    background-color: #fafafa;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 2;
+    background-color: white;
 }
 
 .header-element-container {
@@ -25,7 +26,7 @@
 }
 
 .header-link:hover {
-    color: #ffa530;
+    color: #f5427b;
 }
 
 
@@ -38,12 +39,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #fafafa;
 }
 
 .swiper-container {
     width: 50%;
-    background-color: #fafafa;
     z-index: 1;
 }
 
@@ -52,11 +51,15 @@
 }
 
 .swiper-button:hover {
-    color: #ffa530;
+    color: #f5427b;
 }
 
 .footer {
-    height: 300px;
+    height: 150px;
     background-color: #636363;
     margin-top: 10px;
+}
+
+body {
+    margin: 0px;
 }
