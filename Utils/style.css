@@ -6,8 +6,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2;
-    background-color: white;
+    z-index: 1;
+    background-color: #fcfcfc;
 }
 
 .header-element-container {
@@ -33,6 +33,7 @@
 .title {
     text-align: center;
     margin: 15px;
+    color: #f5427b
 }
 
 .grid {
@@ -43,7 +44,7 @@
 
 .swiper-container {
     width: 50%;
-    z-index: 1;
+    z-index: 0;
 }
 
 .swiper-button {
