@@ -82,6 +82,8 @@
     height: 100px;
     background-color: #636363;
     margin-top: 10px;
+    position: absolute;
+    width: 100%;
 }
 
 .footer-element {
