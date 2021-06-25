@@ -79,11 +79,32 @@
 }
 
 .footer {
-    height: 150px;
+    height: 100px;
     background-color: #636363;
     margin-top: 10px;
+}
+
+.footer-element {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-element:hover {
+    color: #f5427b
+}
+
+.description {
+    margin: 10px;
+}
+
+.details {
+    display: flex;
+    margin: 10px;
 }
 
 body {
     margin: 0px;
 }
+
