@@ -32,6 +32,8 @@
     align-items: center;
     z-index: 1;
     background-color: #fcfcfc;
+    border-bottom: solid 1px;
+    border-bottom-color: #f5427b;
 }
 
 .header-element-container {
@@ -41,7 +43,7 @@
 
 .header-element {
     text-align: center;
-    margin: 25px;
+    margin: 15px;
 }
 
 .header-link {
@@ -79,7 +81,6 @@
 }
 
 .footer {
-    height: 100px;
     background-color: #636363;
     margin-top: 10px;
     position: absolute;
@@ -88,9 +89,17 @@
 
 .footer-element {
     text-align: center;
-    padding-top: 20px;
+    margin: 15px;
     color: white;
-    cursor: pointer;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #f5427b;
 }
 
 .footer-element:hover {
@@ -104,9 +113,21 @@
 .details {
     display: flex;
     margin: 10px;
+    justify-content: center;
 }
 
 body {
     margin: 0px;
 }
 
+p {
+    color: #696969;
+}
+
+i {
+    margin: 5px;
+}
+
+i:hover {
+    color: #f5427b;
+}

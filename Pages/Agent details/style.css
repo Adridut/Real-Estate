@@ -1,5 +1,7 @@
 .imageContainer {
-    width: 50%;
+    width: 25%;
+    text-align: center;
+    margin: 10px;
 }
 
 .image {
@@ -7,5 +9,6 @@
 }
 
 .descriptionContainer {
-    width: 80%;
+    width: 50%;
+    margin: 10px;
 }
