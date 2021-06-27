@@ -2,10 +2,6 @@
     width: 50%;
 }
 
-.infos {
-    text-align: center;
-}
-
 .parameterContainer {
     display: flex;
     align-items: center;
