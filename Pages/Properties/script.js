@@ -1,6 +1,6 @@
 let imageContainer = document.getElementById("imageContainer");
 for (let i = 0; i < 9; i++) {
-    imageContainer.innerHTML += ('<div style="width: 25%; margin: 10px; box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 6px 12px 40px 6px rgba(0, 0, 0, 0.19);"><a href="#popup" rel="modal:open"><img src="../../Assets/Images/home.jpg" style="width: 100%;" alt="home"></img></a><h3 class="infos"><a href="../Property details/index.html" class="header-link">Beautiful 500qm house</a></h3><h4 class="title">300 000$</h4><p class="infos">5824 Boul. Saint-Laurent, Montréal, QC H2T 1T3, Canada</p></div>')
+    imageContainer.innerHTML += ('<div class="cardContainerHorizontal"><a href="#popup" rel="modal:open"><img src="../../Assets/Images/home.jpg" style="width: 100%;" alt="home"></img></a><h3 class="infos"><a href="../Property details/index.html" class="header-link">Beautiful 500qm house</a></h3><h4 class="title">300 000$</h4><p class="infos">5824 Boul. Saint-Laurent, Montréal, QC H2T 1T3, Canada</p></div>')
 }
 
 let swiperContainer = document.getElementById("swiperContainer");
