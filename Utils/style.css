@@ -89,6 +89,7 @@
     position: absolute;
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 
 .footer-element {
@@ -112,10 +113,15 @@
 
 .description {
     margin: 10px;
+    background-color: #a1a1a1;
+    color: white;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 15px;
 }
 
 .details {
-    display: flex;
     margin: 10px;
     justify-content: center;
     align-items: center;
@@ -182,9 +188,16 @@
 .line {
     height: 2px;
     background-color: #f5427b;
-    margin: 25px;
     position: sticky;
     top: 52px;
+    z-index: 1;
+    margin: 15px;
+}
+
+.separator {
+    height: 2px;
+    background-color: #f5427b;
+    margin: 15px;
 }
 
 body {

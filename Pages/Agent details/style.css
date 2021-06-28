@@ -9,6 +9,7 @@
 }
 
 .descriptionContainer {
-    width: 50%;
     margin: 10px;
+    display: flex;
+    align-items: center;
 }
