@@ -11,3 +11,8 @@
 .parameter {
     margin: 5px;
 }
+
+.property-details {
+    display: flex;
+    width: 100%;
+}
