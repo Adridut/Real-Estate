@@ -32,5 +32,17 @@
   text-align: center;
 }
 
+.snd-page-description {
+  margin: 10px;
+}
 
-
+@media screen and (max-width: 850px) {
+  .videoContainer {
+    margin: 10px;
+    align-items: center;
+    display: block;
+  }
+  .video {
+    width: 100%;
+  }
+}
