@@ -135,8 +135,7 @@
 }
 
 .cardContainer {
-    width: 45%;
-    display: flex;
+    width: 30%;
     margin: 10px;
     box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 6px 12px 40px 6px rgba(0, 0, 0, 0.19);
     align-items: center;
@@ -157,17 +156,16 @@
 }
 
 .cardImageContainer {
-    width: 50%;
+    width: 100%;
 }
 
 .cardImage {
-    width: 90%;
-    margin: 10px;
+    width: 100%;
 }
 
 .cardDescription {
     text-align: center;
-    width: 50%;
+    width: 100%;
     padding: 5px;
 }
 
@@ -184,7 +182,6 @@
 }
 
 .cardLink {
-    display: flex;
     align-items: center;
 }
 
@@ -227,7 +224,6 @@ i:hover {
     color: #3471eb;
 }
 
-
 @media screen and (max-width: 1024px) {
     .cardContainerHorizontal {
         width: 40%;
@@ -236,6 +232,13 @@ i:hover {
         align-items: center;
         padding: 10px;
         height: fit-content;
+    }
+    .cardContainer {
+        width: 40%;
+        margin: 10px;
+        box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 6px 12px 40px 6px rgba(0, 0, 0, 0.19);
+        align-items: center;
+        background-color: white
     }
 }
 
@@ -254,6 +257,13 @@ i:hover {
         align-items: center;
         padding: 10px;
         height: fit-content;
+    }
+    .cardContainer {
+        width: 80%;
+        margin: 10px;
+        box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 6px 12px 40px 6px rgba(0, 0, 0, 0.19);
+        align-items: center;
+        background-color: white
     }
     .header-container {
         width: 100%;
