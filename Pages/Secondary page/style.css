@@ -66,4 +66,12 @@
     background-color: white;
     padding: 10px;
   }
+  .content {
+    position: absolute;
+    top: 20%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding: 20px;
+    font-size: 8px;
+  }
 }

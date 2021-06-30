@@ -242,7 +242,7 @@ i:hover {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
     .footer {
         margin-top: 10px;
         position: absolute;
