@@ -5,7 +5,7 @@
 }
 
 .image {
-    width: 100%;
+    width: 80%;
 }
 
 .descriptionContainer {
@@ -17,6 +17,20 @@
 .agentDescription {
     text-align: center;
     width: 60%;
+}
+
+.details-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details-title {
+    margin: 10px
+}
+
+.details-infos {
+    margin-right: 15px;
 }
 
 @media screen and (max-width: 1024px) {

@@ -173,7 +173,7 @@
 }
 
 .cardContainer {
-    width: 30%;
+    width: 20%;
     margin: 10px;
     box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 6px 12px 40px 6px rgba(0, 0, 0, 0.19);
     align-items: center;
@@ -185,7 +185,7 @@
 }
 
 .cardContainerHorizontal {
-    width: 25%;
+    width: 20%;
     margin: 10px;
     box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 6px 12px 40px 6px rgba(0, 0, 0, 0.19);
     align-items: center;
