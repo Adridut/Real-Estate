@@ -13,9 +13,23 @@
 }
 
 .property-details {
-    display: flex;
     width: 100%;
 }
+
+.swiper-container {
+    width: 100%;
+    z-index: 0;
+}
+
+.swiper-button {
+    color: white;
+}
+
+.swiper-button:hover {
+    color: #3471eb;
+}
+
+
 
 @media screen and (max-width: 850px) {
     .property-details {
