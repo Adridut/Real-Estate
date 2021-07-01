@@ -268,10 +268,10 @@ p {
 }
 
 .dropdown {
-    float: left;
     overflow: hidden;
     width: 100%;
     margin: 10px;
+    text-align: center;
 }
 
 .dropdown .dropbtn {
@@ -301,9 +301,6 @@ p {
         align-items: center;
         background-color: white
     }
-}
-
-@media screen and (max-width: 850px) {
     .footer {
         margin-top: 10px;
         position: absolute;
@@ -317,6 +314,9 @@ p {
         color: white;
         margin: 0px;
     }
+}
+
+@media screen and (max-width: 850px) {
     .cardContainerHorizontal {
         width: 80%;
         margin: 10px;
@@ -341,11 +341,6 @@ p {
         align-items: center;
         z-index: 1;
         background-color: white;
-        text-align: center;
-    }
-    .header-element-container {
-        width: 100%;
-        height: 100%;
     }
     .line {
         height: 2px;
