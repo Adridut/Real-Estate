@@ -380,6 +380,14 @@ p {
         color: white;
         margin: 0px;
     }
+    .sidenav-button {
+        font-size: 30px;
+        cursor: pointer;
+        display: block;
+    }
+    .header-container {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 850px) {
@@ -397,9 +405,6 @@ p {
         align-items: center;
         background-color: white
     }
-    .header-container {
-        display: none;
-    }
     .line {
         height: 2px;
         background-color: #3471eb;
@@ -407,10 +412,5 @@ p {
         top: 94px;
         z-index: 1;
         margin: 15px;
-    }
-    .sidenav-button {
-        font-size: 30px;
-        cursor: pointer;
-        display: block;
     }
 }

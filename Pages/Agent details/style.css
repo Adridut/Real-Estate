@@ -48,4 +48,16 @@
         text-align: center;
         width: 100%;
     }
+
+    .details-container {
+        display: block;
+        text-align: center;
+    }
+    .details-infos {
+        margin-right: 0px;
+    }
+    .details-title {
+        margin: 0px
+    }
+    
 }
