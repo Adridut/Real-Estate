@@ -34,7 +34,6 @@
     background-color: white;
 }
 
-
 .header-link {
     text-decoration: none;
     color: black;
@@ -51,8 +50,18 @@
 
 .title {
     text-align: center;
-    margin: 15px;
-    color: #3471eb
+    color: #3471eb;
+    font-weight: bold;
+}
+
+.main-title {
+    color: white;
+    padding: 15px;
+}
+
+.main-title-bg {
+    background-color: #3471eb;
+    height: 100px;
 }
 
 .grid {
@@ -106,6 +115,16 @@
     justify-content: center;
     margin: 10px;
 }
+
+.card-infos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
 
 .footer-title {
     text-align: center;
@@ -162,7 +181,6 @@
     margin: 10px;
     box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 6px 12px 40px 6px rgba(0, 0, 0, 0.19);
     align-items: center;
-    padding: 10px;
     height: fit-content;
 }
 
@@ -269,7 +287,6 @@ p {
 
 .dropdown {
     overflow: hidden;
-    width: 100%;
     margin: 10px;
     text-align: center;
 }
@@ -291,7 +308,6 @@ p {
         margin: 10px;
         box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 6px 12px 40px 6px rgba(0, 0, 0, 0.19);
         align-items: center;
-        padding: 10px;
         height: fit-content;
     }
     .cardContainer {
@@ -322,7 +338,6 @@ p {
         margin: 10px;
         box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 6px 12px 40px 6px rgba(0, 0, 0, 0.19);
         align-items: center;
-        padding: 10px;
         height: fit-content;
     }
     .cardContainer {
