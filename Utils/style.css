@@ -88,7 +88,7 @@
 }
 
 .footer {
-    background-color: #a1a1a1;
+    background-color: #0a162f;
     margin-top: 10px;
     position: absolute;
     width: 100%;
@@ -128,7 +128,7 @@
 }
 
 .footer-link:hover {
-    color: #4b4b4b;
+    color: #3471eb;
 }
 
 .footer-element:hover {
@@ -273,6 +273,12 @@ p {
         width: 100%;
         justify-content: center;
         display: block;
+    }
+    .footer-section {
+        width: 100%;
+        text-align: center;
+        color: white;
+        margin: 0px;
     }
     .cardContainerHorizontal {
         width: 80%;
