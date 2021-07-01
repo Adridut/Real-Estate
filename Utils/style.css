@@ -102,6 +102,26 @@
     color: white;
 }
 
+.footer-section {
+    margin: 10px;
+    width: 25%;
+    text-align: center;
+    color: white;
+}
+
+.footer-infos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.footer-title {
+    text-align: center;
+    margin: 15px;
+    color: white;
+}
+
 .footer-link {
     color: white;
     text-decoration: none;
@@ -208,20 +228,24 @@
     text-align: center;
 }
 
+.icons {
+    margin: 5px;
+}
+
+.icons:hover {
+    color: #3471eb;
+}
+
+.footer-icons {
+    margin-right: 10px;
+}
+
 body {
     margin: 0px;
 }
 
 p {
     color: #4b4b4b;
-}
-
-i {
-    margin: 5px;
-}
-
-i:hover {
-    color: #3471eb;
 }
 
 @media screen and (max-width: 1024px) {
