@@ -159,7 +159,7 @@
 }
 
 .cardContainer {
-    width: 20%;
+    width: 30%;
     margin: 10px;
     box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 6px 12px 40px 6px rgba(0, 0, 0, 0.19);
     align-items: center;
@@ -171,7 +171,7 @@
 }
 
 .cardContainerHorizontal {
-    width: 20%;
+    width: 30%;
     margin: 10px;
     box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 6px 12px 40px 6px rgba(0, 0, 0, 0.19);
     align-items: center;
@@ -220,7 +220,7 @@
 .separator {
     height: 2px;
     background-color: #FF5A3C;
-    margin: 15px;
+    margin: 5px;
 }
 
 .primary {
@@ -233,6 +233,7 @@
 
 .icons {
     margin: 5px;
+    font-size: 20px !important;
 }
 
 .icons:hover {
@@ -241,6 +242,7 @@
 
 .footer-icons {
     margin-right: 10px;
+    font-size: 20px !important;
 }
 
 body {
@@ -340,14 +342,14 @@ p {
 
 @media screen and (max-width: 1024px) {
     .cardContainerHorizontal {
-        width: 40%;
+        width: 80%;
         margin: 10px;
         box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 6px 12px 40px 6px rgba(0, 0, 0, 0.19);
         align-items: center;
         height: fit-content;
     }
     .cardContainer {
-        width: 40%;
+        width: 80%;
         margin: 10px;
         box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 6px 12px 40px 6px rgba(0, 0, 0, 0.19);
         align-items: center;
@@ -374,21 +376,15 @@ p {
     .header-container {
         display: none;
     }
-}
-
-@media screen and (max-width: 850px) {
-    .cardContainerHorizontal {
-        width: 80%;
-        margin: 10px;
-        box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 6px 12px 40px 6px rgba(0, 0, 0, 0.19);
-        align-items: center;
-        height: fit-content;
+    .card-infos {
+        display: block;
     }
-    .cardContainer {
-        width: 80%;
-        margin: 10px;
-        box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 6px 12px 40px 6px rgba(0, 0, 0, 0.19);
-        align-items: center;
-        background-color: white
+    .cardDescription {
+        padding: 0px;
+    }
+
+    .main-container {
+        width: 90%;
+        margin: 0 auto;
     }
 }

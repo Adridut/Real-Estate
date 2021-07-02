@@ -3,7 +3,7 @@
     align-items: center;
     margin: 5px 5px 5px 0px;
     width: 250px;
-    white-space: nowrap;
+    border-left: solid 2px #FF5A3C;
 }
 
 .parameter {
@@ -42,7 +42,8 @@
     text-align: center;
     width: fit-content;
     margin: 0 auto;
-    padding: 5px
+    padding: 5px;
+    margin-bottom: 15px;
 }
 
 .section-title {
@@ -62,12 +63,95 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 850px) {
+.story {
+    display: flex;
+    align-items: center;
+}
+
+.story-img {
+    width: 45%
+}
+
+.story-txt {
+    width: 55%;
+    padding: 15px
+}
+
+.agent-card {
+    width: 25%;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    right: 5%;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.agent-card:hover {
+    color: #FF5A3C;
+}
+
+.agent-img-container {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.agent-description {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.agent-img {
+    width: 100%;
+    border-radius: 125px;
+}
+
+.agent-elements {
+    margin: 5px;
+}
+
+.justify {
+    justify-content: center;
+    display: flex;
+}
+
+@media screen and (max-width: 1024px) {
     .property-details {
         width: 100%;
         display: block;
     }
     .descriptionContainer {
         width: 100%;
+    }
+    .property-infos {
+        display: block;
+        padding: 0px
+    }
+    .story {
+        display: block;
+    }
+    .story-img {
+        width: 100%
+    }
+    .story-txt {
+        width: 100%;
+        padding: 0px
+    }
+    .property-icons {
+        margin-right: 0px;
+    }
+    .justify {
+        justify-content: center;
+        display: block;
+    }
+    .agent-card {
+        padding: 20px;
+        width: 100%;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
     }
 }
