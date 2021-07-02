@@ -84,7 +84,6 @@
     justify-content: center;
 }
 
-
 .footer {
     background-color: #0a162f;
     margin-top: 10px;
@@ -253,6 +252,28 @@ p {
     color: #4b4b4b;
 }
 
+.sidebar-dropdown-content {
+    display: none;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.sidebar-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.sidebar-dropdown-content a:hover {
+    color: #fff;
+}
+
+.dropdown:hover .sidebar-dropdown-content{
+    display: block;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -277,7 +298,7 @@ p {
     color: #fff;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content{
     display: block;
 }
 
@@ -382,7 +403,6 @@ p {
     .cardDescription {
         padding: 0px;
     }
-
     .main-container {
         width: 90%;
         margin: 0 auto;
