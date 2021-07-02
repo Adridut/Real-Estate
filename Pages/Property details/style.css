@@ -14,19 +14,6 @@
     width: 100%;
 }
 
-.swiper-container {
-    width: 100%;
-    z-index: 0;
-}
-
-.swiper-button {
-    color: white;
-}
-
-.swiper-button:hover {
-    color: #FF5A3C;
-}
-
 .property-infos {
     display: flex;
     text-align: center;
@@ -44,17 +31,6 @@
     margin: 0 auto;
     padding: 5px;
     margin-bottom: 15px;
-}
-
-.section-title {
-    border-bottom: solid #FF5A3C;
-    text-align: center;
-}
-
-.property-icons {
-    color: #FF5A3C;
-    margin-right: 10px;
-    font-size: 20px !important;
 }
 
 .details-grid {
@@ -138,9 +114,6 @@
     .story-txt {
         width: 100%;
         padding: 0px
-    }
-    .property-icons {
-        margin-right: 0px;
     }
     .justify {
         justify-content: center;
