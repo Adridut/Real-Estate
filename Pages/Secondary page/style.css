@@ -1,3 +1,10 @@
+:root {
+  --black: #042a2bff;
+  --white: white;
+  --primary: #f18701ff;
+  --grey: #77867fff;
+}
+
 #myVideo {
   right: 0;
   bottom: 0;
@@ -9,7 +16,7 @@
   position: absolute;
   top: 20%;
   background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
+  color: var(--white);
   padding: 10px;
 }
 
@@ -43,7 +50,7 @@
   margin: 10px;
   box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 6px 12px 40px 6px rgba(0, 0, 0, 0.19);
   align-items: center;
-  background-color: white;
+  background-color: var(--white);
   padding: 10px;
 }
 
@@ -63,14 +70,14 @@
     margin: 10px;
     box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 6px 12px 40px 6px rgba(0, 0, 0, 0.19);
     align-items: center;
-    background-color: white;
+    background-color: var(--white);
     padding: 10px;
   }
   .content {
     position: absolute;
     top: 6%;
     background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
+    color: var(--white);
     padding: 5px;
     font-size: 8px;
   }

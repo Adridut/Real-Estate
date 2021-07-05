@@ -1,3 +1,10 @@
+:root {
+    --black: #042a2bff;
+    --white: white;
+    --primary: #f18701ff;
+    --grey: #77867fff;
+}
+
 /* width */
 
 ::-webkit-scrollbar {
@@ -13,14 +20,14 @@
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-    background: grey;
+    background: var(--grey);
     border-radius: 10px;
 }
 
 /* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #FF5A3C;
+    background: var(--primary);
 }
 
 .header-container {
@@ -31,35 +38,35 @@
     justify-content: center;
     align-items: center;
     z-index: 1;
-    background-color: white;
+    background-color: var(--white);
 }
 
 .header-link {
     text-decoration: none;
-    color: black;
+    color: var(--black);
 }
 
 .link {
-    color: #4b4b4b;
+    color: var(--grey);
     text-decoration: none;
 }
 
 .header-link:hover {
-    color: #FF5A3C;
+    color: var(--primary) !important;
 }
 
 .title {
     text-align: center;
-    color: #FF5A3C;
+    color: var(--primary);
     font-weight: bold;
 }
 
 .main-title {
-    color: white;
+    color: var(--white);
 }
 
 .main-title-bg {
-    background-color: #FF5A3C;
+    background-color: var(--primary);
     height: 100px;
     display: flex;
     align-items: center;
@@ -73,7 +80,7 @@
 }
 
 .title-icon {
-    color: white;
+    color: var(--white);
     margin: 10px;
     font-size: 30px !important;
 }
@@ -85,7 +92,7 @@
 }
 
 .footer {
-    background-color: #0a162f;
+    background-color: var(--black);
     margin-top: 10px;
     position: absolute;
     width: 100%;
@@ -96,14 +103,14 @@
 .footer-element {
     text-align: center;
     margin: 15px;
-    color: white;
+    color: var(--white);
 }
 
 .footer-section {
     margin: 10px;
     width: 25%;
     text-align: center;
-    color: white;
+    color: var(--white);
 }
 
 .footer-infos {
@@ -115,11 +122,11 @@
 }
 
 .footer-infos:hover {
-    color: #FF5A3C
+    color: var(--primary)
 }
 
 .primary-hover:hover {
-    color: #FF5A3C;
+    color: var(--primary);
     cursor: pointer;
 }
 
@@ -134,20 +141,20 @@
 .footer-title {
     text-align: center;
     margin: 15px;
-    color: white;
+    color: var(--white);
 }
 
 .footer-link {
-    color: white;
+    color: var(--white);
     text-decoration: none;
 }
 
 .footer-link:hover {
-    color: #FF5A3C;
+    color: var(--primary);
 }
 
 .footer-element:hover {
-    color: #FF5A3C
+    color: var(--primary)
 }
 
 .description {
@@ -169,7 +176,7 @@
     width: 30%;
     margin: 10px;
     align-items: center;
-    background-color: white;
+    background-color: var(--white);
     box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2), 1px 2px 10px 1px rgba(0, 0, 0, 0.19);
 }
 
@@ -197,6 +204,7 @@
     text-align: center;
     width: 100%;
     padding: 5px;
+    color: var(--black);
 }
 
 .cardImageHorizontal {
@@ -217,7 +225,7 @@
 
 .line {
     height: 2px;
-    background-color: #FF5A3C;
+    background-color: var(--primary);
     position: sticky;
     top: 52px;
     z-index: 1;
@@ -226,12 +234,12 @@
 
 .separator {
     height: 2px;
-    background-color: #FF5A3C;
+    background-color: var(--primary);
     margin: 5px;
 }
 
 .primary {
-    color: #FF5A3C;
+    color: var(--primary);
 }
 
 .text-center {
@@ -244,7 +252,7 @@
 }
 
 .icons:hover {
-    color: #FF5A3C;
+    color: var(--primary);
 }
 
 .footer-icons {
@@ -253,17 +261,22 @@
 }
 
 .property-icons {
-    color: #FF5A3C;
+    color: var(--primary);
     margin-right: 10px;
     font-size: 20px !important;
 }
 
 body {
     margin: 0px;
+    background-color: var(--white);
 }
 
 p {
-    color: #4b4b4b;
+    color: var(--grey);
+}
+
+h4 {
+    color: var(--black);
 }
 
 .sidebar-dropdown-content {
@@ -273,7 +286,7 @@ p {
 }
 
 .sidebar-dropdown-content a {
-    color: black;
+    color: var(--black);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -281,7 +294,7 @@ p {
 }
 
 .sidebar-dropdown-content a:hover {
-    color: #fff;
+    color: var(--white);
 }
 
 .dropdown:hover .sidebar-dropdown-content {
@@ -291,16 +304,16 @@ p {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: var(--white);
     min-width: 160px;
     box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 3px 6px 20px 3px rgba(0, 0, 0, 0.19);
     z-index: 1;
-    border: solid 2px #FF5A3C;
+    border: solid 2px var(--primary);
 }
 
 .dropdown-content a {
     float: none;
-    color: black;
+    color: var(--black);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -308,8 +321,8 @@ p {
 }
 
 .dropdown-content a:hover {
-    background-color: #FF5A3C;
-    color: #fff;
+    background-color: var(--primary);
+    color: var(--white);
 }
 
 .dropdown:hover .dropdown-content {
@@ -320,7 +333,7 @@ p {
     overflow: hidden;
     margin: 10px;
     text-align: center;
-    color: white;
+    color: var(--white);
 }
 
 .dropdown .dropbtn {
@@ -332,7 +345,7 @@ p {
     font-family: inherit;
     margin: 0;
     font-weight: bold;
-    color: black;
+    color: var(--black);
 }
 
 .sidenav {
@@ -342,7 +355,7 @@ p {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #FF5A3C;
+    background-color: var(--primary);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -351,14 +364,14 @@ p {
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    color: black;
+    color: var(--black);
     display: block;
     transition: 0.3s;
-    color: white;
+    color: var(--white);
 }
 
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: var(--white);
 }
 
 .sidenav .closebtn {
@@ -367,7 +380,7 @@ p {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-    color: white;
+    color: var(--white);
 }
 
 .sidenav-button {
@@ -376,7 +389,7 @@ p {
     display: none;
     position: sticky;
     top: 0;
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 .swiper-container {
@@ -385,15 +398,15 @@ p {
 }
 
 .swiper-button {
-    color: white !important;
+    color: var(--white) !important;
 }
 
 .swiper-button:hover {
-    color: #FF5A3C !important;
+    color: var(--primary) !important;
 }
 
 .section-title {
-    border-bottom: solid #FF5A3C;
+    border-bottom: solid var(--primary);
     text-align: center;
 }
 
@@ -410,7 +423,7 @@ p {
         margin: 10px;
         box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2), 6px 12px 40px 6px rgba(0, 0, 0, 0.19);
         align-items: center;
-        background-color: white
+        background-color: var(--white)
     }
     .footer {
         margin-top: 10px;
@@ -422,7 +435,7 @@ p {
     .footer-section {
         width: 100%;
         text-align: center;
-        color: white;
+        color: var(--white);
         margin: 0px;
     }
     .sidenav-button {
@@ -455,6 +468,6 @@ p {
         font-family: inherit;
         margin: 0;
         font-weight: bold;
-        color: white;
+        color: var(--white);
     }
 }
