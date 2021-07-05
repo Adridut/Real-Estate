@@ -10,3 +10,9 @@ const swiper = new Swiper('.swiper-container', {
     prevEl: '.swiper-button-prev',
   },
 });
+
+function zoom(img) {
+  let modal = document.getElementById("popup");
+  modal.innerHTML = '<img class="cardImage" src="'+img+'" alt="home"></img>'
+
+}
