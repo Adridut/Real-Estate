@@ -45,12 +45,13 @@
 }
 
 .story-img {
-    width: 45%
+    width: 50%
 }
 
 .story-txt {
-    width: 55%;
-    padding: 15px
+    width: 50%;
+    padding: 15px;
+    margin: 10px;
 }
 
 .agent-card {

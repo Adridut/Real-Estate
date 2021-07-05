@@ -191,11 +191,11 @@
                 </div>
                 <div class="details-container">
                     <i class="fa fa-envelope details-title primary"></i>
-                    <div class="details-infos">example@gmail.com</div>
+                    <div class="details-infos primary-hover" onclick="sendMail('example@gmail.com')">example@gmail.com</div>
                     <i class="fa fa-phone details-title primary"></i>
-                    <div class="details-infos">+49 178 23342392</div>
+                    <div class="details-infos primary-hover" onclick="phoneCall('+49 178 23342392')">+49 178 23342392</div>
                     <i class="fa fa-map-marker details-title primary"></i>
-                    <div class="details-infos">London</div>
+                    <div class="details-infos primary-hover" onclick="openLocation('London')">London</div>
                 </div>
                 <div class="separator"></div>
 
@@ -220,28 +220,6 @@
                     sunt.</p>
             </div>
         </div>
-        <h2 class="section-title">Properties</h2>
-
-    </div>
-    <!-- Slider main container -->
-    <div class="swiper-container">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper" id="swiperContainer">
-            <!-- Slides -->
-            <a href="#popup" rel="modal:open" class="swiper-slide"><img src="../../Assets/Images/home.jpg"
-                    class="cardImageHorizontal" alt="home"></img></a>
-            <a href="#popup" rel="modal:open" class="swiper-slide"><img src="../../Assets/Images/home.jpg"
-                    class="cardImageHorizontal" alt="home"></img></a>
-            <a href="#popup" rel="modal:open" class="swiper-slide"><img src="../../Assets/Images/home.jpg"
-                    class="cardImageHorizontal" alt="home"></img></a>
-            <a href="#popup" rel="modal:open" class="swiper-slide"><img src="../../Assets/Images/home.jpg"
-                    class="cardImageHorizontal" alt="home"></img></a>
-            <a href="#popup" rel="modal:open" class="swiper-slide"><img src="../../Assets/Images/home.jpg"
-                    class="cardImageHorizontal" alt="home"></img></a>
-        </div>
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev swiper-button"></div>
-        <div class="swiper-button-next swiper-button"></div>
     </div>
 
     <!-- footer -->
@@ -250,15 +228,15 @@
             <h3 class="footer-title">Lorem ipsum</h3>
             <div>Lorem ipsum dolor sit amet, consectetur adipisicing el elementis Lorem ipsum dolor sit amet,
                 consectetur adipisicing el elementis</div>
-            <div class="footer-infos">
+            <div class="footer-infos" onclick="openLocation('Brooklyn, New York, United States')">
                 <i class="fa fa-map-marker footer-icons"></i>
                 <div>Brooklyn, New York, United States</div>
             </div>
-            <div class="footer-infos">
+            <div class="footer-infos" onclick="phoneCall('+0123-456789')">
                 <i class="fa fa-phone footer-icons"></i>
                 <div>+0123-456789</div>
             </div>
-            <div class="footer-infos">
+            <div class="footer-infos" onclick="sendMail('example@example.com')">
                 <i class="fa fa-envelope footer-icons"></i>
                 <div>example@example.com</div>
             </div>
